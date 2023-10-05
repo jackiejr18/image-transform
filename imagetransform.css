@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Code 7x5';
-	src: url(Fonts/Code_7x5.ttf) format('truetype');
+	src: url(Fonts/Code\ 7x5.ttf) format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -10,4 +10,37 @@
 	padding: 0;
 	font-family: 'Code 7x5';
 	box-sizing: border-box;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	background: #edf2fc;
+	font-family: 'Code 7x5';
+	position: relative;
+}
+
+nav {
+	width: 84%;
+	margin: auto;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 100px;
+	cursor: pointer;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #606163;
 }
